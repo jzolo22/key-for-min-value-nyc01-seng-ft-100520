@@ -9,6 +9,9 @@ def key_for_min_value(name_hash)
       min_value_name = name
       count = amount
     end
+    if name_hash == {}
+      return nil
+    end
   end
   min_value_name
 end
