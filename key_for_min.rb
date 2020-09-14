@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   count = 1000000
   min_value_name = ""
-  key_for_min_value.each do |name, amount|
+  name_hash.each do |name, amount|
     if amount < count
       min_value_name = name
       count = value
